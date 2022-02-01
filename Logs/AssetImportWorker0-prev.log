@@ -1,0 +1,1832 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.10f1 (b15f561b2cef) revision 11624278'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 8067 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/xhoni/Downloads/knife-hit-unity-clone-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52746
+Successfully changed project path to: C:/Users/xhoni/Downloads/knife-hit-unity-clone-master
+C:/Users/xhoni/Downloads/knife-hit-unity-clone-master
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 131.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.10f1 (b15f561b2cef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/xhoni/Downloads/knife-hit-unity-clone-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   23.21.13.9125
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003132 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.863 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3863ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.033633 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.793 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1794ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1489ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (499ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 6.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.1 MB.
+System memory in use after: 113.3 MB.
+
+Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 3497.
+Total: 8.186100 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.176700 ms MarkObjects: 7.574400 ms  DeleteObjects: 0.168700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife1.prefab
+  artifactKey: Guid(b447f14fede85b543827b2288523e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife1.prefab using Guid(b447f14fede85b543827b2288523e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aadb835e07c2e3c2bd4634d94e66673') in 0.196964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.372183 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife3.prefab
+  artifactKey: Guid(076e7ff24d4b32b4a8f3b2d87bf9457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife3.prefab using Guid(076e7ff24d4b32b4a8f3b2d87bf9457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8238b9e4f8ffce3c1e1f9728bc51fad1') in 0.028451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife8.prefab
+  artifactKey: Guid(e8920a4be8e618c4ab22c847ea558e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife8.prefab using Guid(e8920a4be8e618c4ab22c847ea558e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a530455d682c22a67413ea03207f5b') in 0.020534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife14.prefab
+  artifactKey: Guid(066ff06db05e0174d981e0ae709f443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife14.prefab using Guid(066ff06db05e0174d981e0ae709f443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67590099db1f46f9d48c2f895f03cfff') in 0.030929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife7.prefab
+  artifactKey: Guid(ed89c493ac09aca40b5d848d7ff37b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife7.prefab using Guid(ed89c493ac09aca40b5d848d7ff37b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b44428856bbc55d7aba7b4b76c972d') in 0.018728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife5.prefab
+  artifactKey: Guid(d92a8083cb94c8a479785628d611fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife5.prefab using Guid(d92a8083cb94c8a479785628d611fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0781b8f705501150139e08e12d8f3938') in 0.020098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife6.prefab
+  artifactKey: Guid(acc7ed02f9faa5549b69f5b7d51fbda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife6.prefab using Guid(acc7ed02f9faa5549b69f5b7d51fbda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5046f181f3b874a37dbd975e8dafc19c') in 0.022685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife11.prefab
+  artifactKey: Guid(e489524cfdfbcac4dae47de396b826c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife11.prefab using Guid(e489524cfdfbcac4dae47de396b826c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cc3e7f1ba9e2c29e2c62964a07aa0f') in 0.028720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife13.prefab
+  artifactKey: Guid(fafcf7070dfff024ebb52cb7757bee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife13.prefab using Guid(fafcf7070dfff024ebb52cb7757bee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c089187e346e65e056183bfecefb30c') in 0.044050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife15.prefab
+  artifactKey: Guid(7e90d195b31ed634ba9d417d713cbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife15.prefab using Guid(7e90d195b31ed634ba9d417d713cbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42905b09856c326ea871a16dc0a29889') in 0.020886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife9.prefab
+  artifactKey: Guid(b499ea42943df1941a11ae6fab41385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife9.prefab using Guid(b499ea42943df1941a11ae6fab41385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a618fbe8845843dca742e90bc4ad81') in 0.027148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife4.prefab
+  artifactKey: Guid(d9641f4cb0677c74486d3c7502eb3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife4.prefab using Guid(d9641f4cb0677c74486d3c7502eb3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1998b5fce28b97fec03508eff27d6d') in 0.027009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife10.prefab
+  artifactKey: Guid(0dbb15e9017590d4aa3686d67cea80c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife10.prefab using Guid(0dbb15e9017590d4aa3686d67cea80c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d691a8e080fa00588387bdcfa3e462') in 0.017680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001698 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife12.prefab
+  artifactKey: Guid(1ff53eac0729eae44b546bf26153d2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife12.prefab using Guid(1ff53eac0729eae44b546bf26153d2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6691728f774008b6f3cb19811880c039') in 0.019433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife16.prefab
+  artifactKey: Guid(3b7e33ab05340cb4ba1b1a40b5322f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife16.prefab using Guid(3b7e33ab05340cb4ba1b1a40b5322f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865cc761b0db06eae8d3385e2e8198ba') in 0.015692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.878738 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife3.prefab
+  artifactKey: Guid(076e7ff24d4b32b4a8f3b2d87bf9457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife3.prefab using Guid(076e7ff24d4b32b4a8f3b2d87bf9457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21dac766da375b80ed8abc90e9695ea') in 0.016312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife8.prefab
+  artifactKey: Guid(e8920a4be8e618c4ab22c847ea558e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife8.prefab using Guid(e8920a4be8e618c4ab22c847ea558e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6932a0778bf280006b5036c36eddc2') in 0.014902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife14.prefab
+  artifactKey: Guid(066ff06db05e0174d981e0ae709f443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife14.prefab using Guid(066ff06db05e0174d981e0ae709f443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a247587e34e270ea39a38942b5dfff2f') in 0.016446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife7.prefab
+  artifactKey: Guid(ed89c493ac09aca40b5d848d7ff37b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife7.prefab using Guid(ed89c493ac09aca40b5d848d7ff37b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac47378d6775217740e1e7122287eb5') in 0.016893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife6.prefab
+  artifactKey: Guid(acc7ed02f9faa5549b69f5b7d51fbda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife6.prefab using Guid(acc7ed02f9faa5549b69f5b7d51fbda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b673b776a809ff8adf9b8245307d922f') in 0.013977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife15.prefab
+  artifactKey: Guid(7e90d195b31ed634ba9d417d713cbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife15.prefab using Guid(7e90d195b31ed634ba9d417d713cbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b1d8c3ba20dbf71b80fec80be77449') in 0.016857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife11.prefab
+  artifactKey: Guid(e489524cfdfbcac4dae47de396b826c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife11.prefab using Guid(e489524cfdfbcac4dae47de396b826c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941b961b699d8ec7f506e5c45dcb6064') in 0.013350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife13.prefab
+  artifactKey: Guid(fafcf7070dfff024ebb52cb7757bee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife13.prefab using Guid(fafcf7070dfff024ebb52cb7757bee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a36ea6da49b189944116081b4d8970') in 0.017940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife9.prefab
+  artifactKey: Guid(b499ea42943df1941a11ae6fab41385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife9.prefab using Guid(b499ea42943df1941a11ae6fab41385b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8802b04d71df89ad8708ad76c4e55467') in 0.013039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife4.prefab
+  artifactKey: Guid(d9641f4cb0677c74486d3c7502eb3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife4.prefab using Guid(d9641f4cb0677c74486d3c7502eb3c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4ecbb1ba42219a2f3d8551d5f7b6eb') in 0.017002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife12.prefab
+  artifactKey: Guid(1ff53eac0729eae44b546bf26153d2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife12.prefab using Guid(1ff53eac0729eae44b546bf26153d2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7cdc5a39f0e4d6d1e72d3727104ad8') in 0.016321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife16.prefab
+  artifactKey: Guid(3b7e33ab05340cb4ba1b1a40b5322f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife16.prefab using Guid(3b7e33ab05340cb4ba1b1a40b5322f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d21ec781403492aabc4d23f02cd28bc') in 0.017886 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046764 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1847ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1561ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (394ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3507.
+Total: 10.497900 ms (FindLiveObjects: 0.463900 ms CreateObjectMapping: 3.041800 ms MarkObjects: 6.943400 ms  DeleteObjects: 0.046900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018696 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  2.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2209ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1748ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (675ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (556ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3510.
+Total: 3.222200 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.302700 ms MarkObjects: 2.499700 ms  DeleteObjects: 0.050000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030269 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  2.338 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2339ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1984ms)
+			LoadAssemblies (240ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (721ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (527ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3513.
+Total: 3.506100 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.227900 ms MarkObjects: 2.935700 ms  DeleteObjects: 0.052400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 236.993751 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle1.prefab
+  artifactKey: Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle1.prefab using Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34056574fab365fea408c2d966533120') in 0.108187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle3.prefab
+  artifactKey: Guid(e73a08bb4bd35194299892ae6fd5c0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle3.prefab using Guid(e73a08bb4bd35194299892ae6fd5c0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d718d14ba2e363dfcfac7c2b4065a2') in 0.032755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle7.prefab
+  artifactKey: Guid(a36bf048dc97d9a4e9706e2a49307a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle7.prefab using Guid(a36bf048dc97d9a4e9706e2a49307a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8875bcaa38c0acb4a028f81ad4fb6b') in 0.038570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle12.prefab
+  artifactKey: Guid(c31a58514a9c27649bd2ecc44ea891e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle12.prefab using Guid(c31a58514a9c27649bd2ecc44ea891e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759a055495faf18d36e42c905cad5901') in 0.030977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle9.prefab
+  artifactKey: Guid(f837aabe6879f0441ac2b3c913ff41d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle9.prefab using Guid(f837aabe6879f0441ac2b3c913ff41d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7310cb5b7de6bb00cc7efb9a182ddd71') in 0.032452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle14.prefab
+  artifactKey: Guid(919a1cd1e4cd6f14fa97b13a6c74078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle14.prefab using Guid(919a1cd1e4cd6f14fa97b13a6c74078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b77ef4f6e645eb94fec443938b1c83') in 0.029585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle13.prefab
+  artifactKey: Guid(b5504aa652f139e49a16c490c1cc0e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle13.prefab using Guid(b5504aa652f139e49a16c490c1cc0e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1cfc259ea44e435a1a376f62cb5b09') in 0.045285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle2.prefab
+  artifactKey: Guid(0b9ef63f00cdd0645bbb3edabc8fc409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle2.prefab using Guid(0b9ef63f00cdd0645bbb3edabc8fc409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bdc831825478bbc0c081d1944224a5') in 0.040824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle6.prefab
+  artifactKey: Guid(2b227fb8b3d16324c87fe26cf1cee04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle6.prefab using Guid(2b227fb8b3d16324c87fe26cf1cee04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290a4c68318fedc8a595031cfb58846d') in 0.041823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle11.prefab
+  artifactKey: Guid(585258b58891b074d88d9bb2f1391058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle11.prefab using Guid(585258b58891b074d88d9bb2f1391058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce16504e79f5b1c9ba57d6e8d50ec50') in 0.037280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle16.prefab
+  artifactKey: Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle16.prefab using Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ead2719845619c9f0248dd061f4502') in 0.036884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle8.prefab
+  artifactKey: Guid(191066ce93bebb74a889a70d463d96c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle8.prefab using Guid(191066ce93bebb74a889a70d463d96c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e68fb0c88c41647432450cd270c5301') in 0.031218 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021016 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1654ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1391ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.3 MB.
+System memory in use after: 117.6 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3517.
+Total: 4.055400 ms (FindLiveObjects: 0.368200 ms CreateObjectMapping: 0.237800 ms MarkObjects: 3.346100 ms  DeleteObjects: 0.099400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169.185516 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle2.prefab
+  artifactKey: Guid(0b9ef63f00cdd0645bbb3edabc8fc409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle2.prefab using Guid(0b9ef63f00cdd0645bbb3edabc8fc409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e58b043b74c0492569ac99b24edfd9') in 0.087317 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022789 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1873ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1624ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (606ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (604ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.4 MB.
+System memory in use after: 117.6 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 2.875700 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.159200 ms MarkObjects: 2.392400 ms  DeleteObjects: 0.055400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 267.699618 seconds.
+  path: Assets/KnifeHit/Bosses/Table.jpg
+  artifactKey: Guid(c4ac1ea132d2e2e42aa03ba3944f88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Bosses/Table.jpg using Guid(c4ac1ea132d2e2e42aa03ba3944f88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f16f06285f4f1f360d33046a25e68ff') in 0.180887 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026444 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.950 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1951ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1674ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (636ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (591ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3543.
+Total: 3.278100 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.222200 ms MarkObjects: 2.681300 ms  DeleteObjects: 0.059600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.042903 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  2.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2486ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2059ms)
+			LoadAssemblies (242ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (793ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (725ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (542ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.7 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3546.
+Total: 5.371600 ms (FindLiveObjects: 1.075900 ms CreateObjectMapping: 0.230500 ms MarkObjects: 3.963600 ms  DeleteObjects: 0.099900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 335.781102 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle16.prefab
+  artifactKey: Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle16.prefab using Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9de51d4284de57e08c1eb63de1a600') in 0.132635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle26.prefab
+  artifactKey: Guid(dd2ad413a1ce7814a9e765e65ef7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle26.prefab using Guid(dd2ad413a1ce7814a9e765e65ef7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68db5880a59f4ca3f0149693de4fd73d') in 0.033357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle28.prefab
+  artifactKey: Guid(88560992cf15b3742af1925d3e47ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle28.prefab using Guid(88560992cf15b3742af1925d3e47ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bca31db7773515b4faf234a4b037b3e') in 0.035217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle44.prefab
+  artifactKey: Guid(bc6e5c0d229fc6b4da5d0d132648bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle44.prefab using Guid(bc6e5c0d229fc6b4da5d0d132648bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6f2d1e97ed6daa5ba042629c75dde5') in 0.049199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle1.prefab
+  artifactKey: Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle1.prefab using Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ed7057a83ffcb3020f3406ac40141e') in 0.028155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle29.prefab
+  artifactKey: Guid(03e0a5f6b95751445bd0f070de4c3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle29.prefab using Guid(03e0a5f6b95751445bd0f070de4c3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d8b7a3a7388cd01a7073669e7d15ba') in 0.029302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle33.prefab
+  artifactKey: Guid(4fcede68bcab0c04192a7eac311de620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle33.prefab using Guid(4fcede68bcab0c04192a7eac311de620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755524b01714387432b65466942a242e') in 0.033445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle42.prefab
+  artifactKey: Guid(2e67624b6c77b854b9839c424524af52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle42.prefab using Guid(2e67624b6c77b854b9839c424524af52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6da7d50615019517f3ce062bb985b9') in 0.028974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle27.prefab
+  artifactKey: Guid(0298fc85a6fbdd54aaccaee715620a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle27.prefab using Guid(0298fc85a6fbdd54aaccaee715620a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab20c91c06db5c72358f385cb27c916') in 0.030359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle32.prefab
+  artifactKey: Guid(c39d9d7c2c355b14fb71f48564d4a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle32.prefab using Guid(c39d9d7c2c355b14fb71f48564d4a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990f3bca312a0d06b1ecc1dbb89c9e71') in 0.031179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle49.prefab
+  artifactKey: Guid(411b1cc7bb9613342b1d682099ac0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle49.prefab using Guid(411b1cc7bb9613342b1d682099ac0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e0f1a5da71837bbf2dda0b6f07a340') in 0.024125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle38.prefab
+  artifactKey: Guid(e6704d6ad4f740c4c8429ffbc5c90676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle38.prefab using Guid(e6704d6ad4f740c4c8429ffbc5c90676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca96c9b3ba52af826397259a473a066f') in 0.029658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle21.prefab
+  artifactKey: Guid(eaab7a8b3f17132428c6516ee42c1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle21.prefab using Guid(eaab7a8b3f17132428c6516ee42c1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb3e26bdfc7d4fdaad68db952674e8') in 0.043348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle31.prefab
+  artifactKey: Guid(0774ffe63f82d924b9dc631edac28adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle31.prefab using Guid(0774ffe63f82d924b9dc631edac28adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420ef6e5f79f073f7c4cf90744ab2c71') in 0.032137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle48.prefab
+  artifactKey: Guid(2dec2475a3ec17148a0a696e59434c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle48.prefab using Guid(2dec2475a3ec17148a0a696e59434c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bd3c6fbbac108028143dbe52efa165') in 0.031534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle39.prefab
+  artifactKey: Guid(a90808ae646511d41a7bd459c7bda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle39.prefab using Guid(a90808ae646511d41a7bd459c7bda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2462a25f718455570a60bf32d984bc') in 0.030017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle41.prefab
+  artifactKey: Guid(4c5f623981a6c7b4bb9c9d5d1a63c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle41.prefab using Guid(4c5f623981a6c7b4bb9c9d5d1a63c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb57e6142344c93b855f7247719f9a11') in 0.029195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle17.prefab
+  artifactKey: Guid(676e042964d6e46439bbb69a4337a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle17.prefab using Guid(676e042964d6e46439bbb69a4337a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd80538bc985b752a1350329d9461da4') in 0.024592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle18.prefab
+  artifactKey: Guid(f92411e5f5adce948abd5f4aabdb58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle18.prefab using Guid(f92411e5f5adce948abd5f4aabdb58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f430f2858fea8f26fb31a9c43f2a89e9') in 0.027572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle23.prefab
+  artifactKey: Guid(4e678591b1f3a7449a8340a620193587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle23.prefab using Guid(4e678591b1f3a7449a8340a620193587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395a45135ed4f424e50283021664587f') in 0.026709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle47.prefab
+  artifactKey: Guid(2d41a3daa5198074397143446a022d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle47.prefab using Guid(2d41a3daa5198074397143446a022d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6593e9364f81f43fae56ff59d5d846b') in 0.024307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle36.prefab
+  artifactKey: Guid(031e4e19a05ef0b40bef239b61d0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle36.prefab using Guid(031e4e19a05ef0b40bef239b61d0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e40f094d7f6ce73aa35f48b778eeb4') in 0.024646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle43.prefab
+  artifactKey: Guid(3c17d7a967e511d4c95c556fe04f9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle43.prefab using Guid(3c17d7a967e511d4c95c556fe04f9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca5b9ae8c838abc3f28029edff7c80a') in 0.031885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle19.prefab
+  artifactKey: Guid(3e748ab058a61494290701e944f0238f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle19.prefab using Guid(3e748ab058a61494290701e944f0238f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178be8dad7edb5db2241fc6b26baf255') in 0.029227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle46.prefab
+  artifactKey: Guid(27310088a433491428c2be9a8a2a55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle46.prefab using Guid(27310088a433491428c2be9a8a2a55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2e65342a9a4fadd934f08fbfacfcaa') in 0.030875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle34.prefab
+  artifactKey: Guid(190b15799de55d042bdde4d9214d4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle34.prefab using Guid(190b15799de55d042bdde4d9214d4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86080faa0c2ac5770570335866e654d1') in 0.025826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000748 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle37.prefab
+  artifactKey: Guid(f6502f0fc98ee4543a13a8170ae1c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle37.prefab using Guid(f6502f0fc98ee4543a13a8170ae1c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1132e9dc4d71f3b526a07818fc1c73') in 0.027165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle22.prefab
+  artifactKey: Guid(6237e4311e376234c961578134cf390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle22.prefab using Guid(6237e4311e376234c961578134cf390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fd810d06fea72ff5a3e6b54605e4f6') in 0.028562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.915407 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle16.prefab
+  artifactKey: Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle16.prefab using Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43702a4d6c4c15eac28edf7029898eb') in 0.041166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle26.prefab
+  artifactKey: Guid(dd2ad413a1ce7814a9e765e65ef7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle26.prefab using Guid(dd2ad413a1ce7814a9e765e65ef7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402b85999d3689e11400d4c2c3d0014c') in 0.053589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle28.prefab
+  artifactKey: Guid(88560992cf15b3742af1925d3e47ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle28.prefab using Guid(88560992cf15b3742af1925d3e47ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d72c083a44045c1fe3a9b18d71fa2fa') in 0.027184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle44.prefab
+  artifactKey: Guid(bc6e5c0d229fc6b4da5d0d132648bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle44.prefab using Guid(bc6e5c0d229fc6b4da5d0d132648bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a9317dd99d10b29d2c04d66d70d948') in 0.030748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle1.prefab
+  artifactKey: Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle1.prefab using Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11d956c9a6d67add5ea315495eb4ef0') in 0.024399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000996 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle29.prefab
+  artifactKey: Guid(03e0a5f6b95751445bd0f070de4c3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle29.prefab using Guid(03e0a5f6b95751445bd0f070de4c3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b48441a80aea71ca0cd86a1351a2e45') in 0.025788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle33.prefab
+  artifactKey: Guid(4fcede68bcab0c04192a7eac311de620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle33.prefab using Guid(4fcede68bcab0c04192a7eac311de620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b86c7368269db8751d137a9b1adad27') in 0.021202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle42.prefab
+  artifactKey: Guid(2e67624b6c77b854b9839c424524af52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle42.prefab using Guid(2e67624b6c77b854b9839c424524af52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6479b1f37183245aa6e9821a7b77884') in 0.025672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle27.prefab
+  artifactKey: Guid(0298fc85a6fbdd54aaccaee715620a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle27.prefab using Guid(0298fc85a6fbdd54aaccaee715620a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb418b0d3c173e8e1dd5997c0abf199') in 0.036033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle32.prefab
+  artifactKey: Guid(c39d9d7c2c355b14fb71f48564d4a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle32.prefab using Guid(c39d9d7c2c355b14fb71f48564d4a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5479e8ee3c7fa5efbd78331c4feb7630') in 0.039232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle49.prefab
+  artifactKey: Guid(411b1cc7bb9613342b1d682099ac0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle49.prefab using Guid(411b1cc7bb9613342b1d682099ac0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69767e082765725314bd20e94fa8d69a') in 0.056823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle38.prefab
+  artifactKey: Guid(e6704d6ad4f740c4c8429ffbc5c90676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle38.prefab using Guid(e6704d6ad4f740c4c8429ffbc5c90676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d4a66fb5443ed9b829365ac10b1906') in 0.019667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000976 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle21.prefab
+  artifactKey: Guid(eaab7a8b3f17132428c6516ee42c1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle21.prefab using Guid(eaab7a8b3f17132428c6516ee42c1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106806a25f8f3555d93c70d4dc316541') in 0.025832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle31.prefab
+  artifactKey: Guid(0774ffe63f82d924b9dc631edac28adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle31.prefab using Guid(0774ffe63f82d924b9dc631edac28adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bff5ae6e3f5d7a825d875cf51d2c69f') in 0.020515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle48.prefab
+  artifactKey: Guid(2dec2475a3ec17148a0a696e59434c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle48.prefab using Guid(2dec2475a3ec17148a0a696e59434c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99839a278065061a4e219288c6395ba') in 0.022240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle39.prefab
+  artifactKey: Guid(a90808ae646511d41a7bd459c7bda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle39.prefab using Guid(a90808ae646511d41a7bd459c7bda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21a42a0a9ccbca0c0c3675628f61e64') in 0.028757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle41.prefab
+  artifactKey: Guid(4c5f623981a6c7b4bb9c9d5d1a63c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle41.prefab using Guid(4c5f623981a6c7b4bb9c9d5d1a63c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82b0b033db804aaf7ea7d9e41de8006') in 0.020580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle17.prefab
+  artifactKey: Guid(676e042964d6e46439bbb69a4337a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle17.prefab using Guid(676e042964d6e46439bbb69a4337a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26a7b21235579329e9dc7f04310cd6b') in 0.023459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle18.prefab
+  artifactKey: Guid(f92411e5f5adce948abd5f4aabdb58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle18.prefab using Guid(f92411e5f5adce948abd5f4aabdb58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76006a2bc9f3dbfc908290bd0074934') in 0.020465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle23.prefab
+  artifactKey: Guid(4e678591b1f3a7449a8340a620193587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle23.prefab using Guid(4e678591b1f3a7449a8340a620193587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04a55820f5423e3825e35878748e613') in 0.025515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle47.prefab
+  artifactKey: Guid(2d41a3daa5198074397143446a022d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle47.prefab using Guid(2d41a3daa5198074397143446a022d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebc1cdef0cfccee9f7a3c2493b1718f') in 0.029826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle36.prefab
+  artifactKey: Guid(031e4e19a05ef0b40bef239b61d0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle36.prefab using Guid(031e4e19a05ef0b40bef239b61d0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b970bbb31daef06e2611969092b6d2e2') in 0.047134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle43.prefab
+  artifactKey: Guid(3c17d7a967e511d4c95c556fe04f9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle43.prefab using Guid(3c17d7a967e511d4c95c556fe04f9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21de38015d8e260027502a4ea8c1bbf6') in 0.043471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle19.prefab
+  artifactKey: Guid(3e748ab058a61494290701e944f0238f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle19.prefab using Guid(3e748ab058a61494290701e944f0238f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8693a7e51e6c1a06295da815a2b5a95f') in 0.024690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle46.prefab
+  artifactKey: Guid(27310088a433491428c2be9a8a2a55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle46.prefab using Guid(27310088a433491428c2be9a8a2a55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cb3956ac816789bcb1311eec5d8f78') in 0.021403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle34.prefab
+  artifactKey: Guid(190b15799de55d042bdde4d9214d4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle34.prefab using Guid(190b15799de55d042bdde4d9214d4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5023a3d1f27346979fb095f7d7728218') in 0.024857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle37.prefab
+  artifactKey: Guid(f6502f0fc98ee4543a13a8170ae1c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle37.prefab using Guid(f6502f0fc98ee4543a13a8170ae1c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616620aaea4c523fa7271438ff3dbcb5') in 0.023204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle22.prefab
+  artifactKey: Guid(6237e4311e376234c961578134cf390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle22.prefab using Guid(6237e4311e376234c961578134cf390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc24dbc0b63cd8c32bfb63c556d6958') in 0.030528 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.090560 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  2.747 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2748ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2317ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (886ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (826ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (663ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.8 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3550.
+Total: 3.387400 ms (FindLiveObjects: 0.478200 ms CreateObjectMapping: 0.290400 ms MarkObjects: 2.563100 ms  DeleteObjects: 0.054000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.523763 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle2.prefab
+  artifactKey: Guid(0b9ef63f00cdd0645bbb3edabc8fc409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle2.prefab using Guid(0b9ef63f00cdd0645bbb3edabc8fc409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c824f4ffb52e7a0098d1cd4b7c94f535') in 0.117454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle3.prefab
+  artifactKey: Guid(e73a08bb4bd35194299892ae6fd5c0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle3.prefab using Guid(e73a08bb4bd35194299892ae6fd5c0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855e88d8c448e2e5154e847ab3094fcc') in 0.033442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle7.prefab
+  artifactKey: Guid(a36bf048dc97d9a4e9706e2a49307a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle7.prefab using Guid(a36bf048dc97d9a4e9706e2a49307a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc2921eaede9fc1d0d8dafefc382922') in 0.030101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle12.prefab
+  artifactKey: Guid(c31a58514a9c27649bd2ecc44ea891e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle12.prefab using Guid(c31a58514a9c27649bd2ecc44ea891e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d73c20451076f7476f6169e8a3543d1') in 0.027958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle9.prefab
+  artifactKey: Guid(f837aabe6879f0441ac2b3c913ff41d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle9.prefab using Guid(f837aabe6879f0441ac2b3c913ff41d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535eb883559765ca88ee49f49ad28b99') in 0.027854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle14.prefab
+  artifactKey: Guid(919a1cd1e4cd6f14fa97b13a6c74078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle14.prefab using Guid(919a1cd1e4cd6f14fa97b13a6c74078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f889ad630007a2502bb73b771e7601') in 0.025509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle13.prefab
+  artifactKey: Guid(b5504aa652f139e49a16c490c1cc0e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle13.prefab using Guid(b5504aa652f139e49a16c490c1cc0e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c59abbd9831d76c95d1eeea3655df2') in 0.037471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle6.prefab
+  artifactKey: Guid(2b227fb8b3d16324c87fe26cf1cee04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle6.prefab using Guid(2b227fb8b3d16324c87fe26cf1cee04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d0faab73af80c4e845617b3a7181ce') in 0.035418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle11.prefab
+  artifactKey: Guid(585258b58891b074d88d9bb2f1391058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle11.prefab using Guid(585258b58891b074d88d9bb2f1391058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb9fa8db3bb2bb51dc0f856f29f0208') in 0.043559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle8.prefab
+  artifactKey: Guid(191066ce93bebb74a889a70d463d96c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle8.prefab using Guid(191066ce93bebb74a889a70d463d96c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a8921d9e682c99ffa844c26ac385f4') in 0.033850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle4.prefab
+  artifactKey: Guid(808d7a70c93b5f94498a82614ed64f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle4.prefab using Guid(808d7a70c93b5f94498a82614ed64f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02466986876d3fc8ef4b7a5f71b6c4ca') in 0.029268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.211091 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle16.prefab
+  artifactKey: Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle16.prefab using Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28658eeb51c2fd4794b35e0ed630030') in 0.047825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle26.prefab
+  artifactKey: Guid(dd2ad413a1ce7814a9e765e65ef7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle26.prefab using Guid(dd2ad413a1ce7814a9e765e65ef7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d48cd3da63d68117f8fa4caa7b5bf1') in 0.033364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle28.prefab
+  artifactKey: Guid(88560992cf15b3742af1925d3e47ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle28.prefab using Guid(88560992cf15b3742af1925d3e47ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cde94d482fbadee316085aa05c2c75') in 0.038272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle44.prefab
+  artifactKey: Guid(bc6e5c0d229fc6b4da5d0d132648bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle44.prefab using Guid(bc6e5c0d229fc6b4da5d0d132648bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35487dd5734b818bec5dc16c1684b743') in 0.028461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle1.prefab
+  artifactKey: Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle1.prefab using Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241b5f2cc40b588cb040ec0fa65c56fa') in 0.027917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle29.prefab
+  artifactKey: Guid(03e0a5f6b95751445bd0f070de4c3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle29.prefab using Guid(03e0a5f6b95751445bd0f070de4c3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195bfab326ee2432d861d8e33f703095') in 0.028141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle33.prefab
+  artifactKey: Guid(4fcede68bcab0c04192a7eac311de620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle33.prefab using Guid(4fcede68bcab0c04192a7eac311de620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fb7a448d9308a9641306fd9cb3ee77') in 0.025908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle42.prefab
+  artifactKey: Guid(2e67624b6c77b854b9839c424524af52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle42.prefab using Guid(2e67624b6c77b854b9839c424524af52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbf3fe975e3907e5838f63c7ed7107f') in 0.023238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle27.prefab
+  artifactKey: Guid(0298fc85a6fbdd54aaccaee715620a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle27.prefab using Guid(0298fc85a6fbdd54aaccaee715620a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064a0e52a401ca0283ef07fe69077ba9') in 0.028288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle32.prefab
+  artifactKey: Guid(c39d9d7c2c355b14fb71f48564d4a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle32.prefab using Guid(c39d9d7c2c355b14fb71f48564d4a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df08e64a4f3102692cf98e69ddd68bc') in 0.020587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle49.prefab
+  artifactKey: Guid(411b1cc7bb9613342b1d682099ac0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle49.prefab using Guid(411b1cc7bb9613342b1d682099ac0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f29cc1d0264696e7ada346241490d4') in 0.025597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle38.prefab
+  artifactKey: Guid(e6704d6ad4f740c4c8429ffbc5c90676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle38.prefab using Guid(e6704d6ad4f740c4c8429ffbc5c90676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac01a439e25e441c996aeff37923a45') in 0.027104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle21.prefab
+  artifactKey: Guid(eaab7a8b3f17132428c6516ee42c1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle21.prefab using Guid(eaab7a8b3f17132428c6516ee42c1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b20c36b5436eabd9f0ec621d4835683') in 0.022318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle31.prefab
+  artifactKey: Guid(0774ffe63f82d924b9dc631edac28adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle31.prefab using Guid(0774ffe63f82d924b9dc631edac28adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad71ad9a9ea52984f08e60494874360') in 0.024146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle48.prefab
+  artifactKey: Guid(2dec2475a3ec17148a0a696e59434c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle48.prefab using Guid(2dec2475a3ec17148a0a696e59434c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855512bf79b6e67268d0e51a52047904') in 0.022244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle39.prefab
+  artifactKey: Guid(a90808ae646511d41a7bd459c7bda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle39.prefab using Guid(a90808ae646511d41a7bd459c7bda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd503e492dc6bded4615280a74d360c') in 0.020232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle41.prefab
+  artifactKey: Guid(4c5f623981a6c7b4bb9c9d5d1a63c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle41.prefab using Guid(4c5f623981a6c7b4bb9c9d5d1a63c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d522d903255548be83b1f6487a79e65') in 0.020744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle17.prefab
+  artifactKey: Guid(676e042964d6e46439bbb69a4337a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle17.prefab using Guid(676e042964d6e46439bbb69a4337a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5bb5274e912cdc92072a8b12460ba2') in 0.027189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle18.prefab
+  artifactKey: Guid(f92411e5f5adce948abd5f4aabdb58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle18.prefab using Guid(f92411e5f5adce948abd5f4aabdb58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aced0b154ad24050bc495294792fe2be') in 0.021363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle23.prefab
+  artifactKey: Guid(4e678591b1f3a7449a8340a620193587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle23.prefab using Guid(4e678591b1f3a7449a8340a620193587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60775c14634ee1efac9987e26b7416d') in 0.022664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle47.prefab
+  artifactKey: Guid(2d41a3daa5198074397143446a022d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle47.prefab using Guid(2d41a3daa5198074397143446a022d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a48b8a6d6a458882cc5cc665dd41c20') in 0.024148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle36.prefab
+  artifactKey: Guid(031e4e19a05ef0b40bef239b61d0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle36.prefab using Guid(031e4e19a05ef0b40bef239b61d0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45bcf60538fd9053df3f8ae87666768') in 0.043241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle43.prefab
+  artifactKey: Guid(3c17d7a967e511d4c95c556fe04f9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle43.prefab using Guid(3c17d7a967e511d4c95c556fe04f9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4178f2edfefb5585da0a4f260033b26') in 0.035893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle19.prefab
+  artifactKey: Guid(3e748ab058a61494290701e944f0238f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle19.prefab using Guid(3e748ab058a61494290701e944f0238f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05661803a31fd479f4c9698d5ad0cb30') in 0.028890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle46.prefab
+  artifactKey: Guid(27310088a433491428c2be9a8a2a55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle46.prefab using Guid(27310088a433491428c2be9a8a2a55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a8a07406d8cba009c2f51d56a3b840') in 0.022290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle34.prefab
+  artifactKey: Guid(190b15799de55d042bdde4d9214d4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle34.prefab using Guid(190b15799de55d042bdde4d9214d4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0828fa65f7b263c5a7c4cd407fb6b8') in 0.021838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle37.prefab
+  artifactKey: Guid(f6502f0fc98ee4543a13a8170ae1c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle37.prefab using Guid(f6502f0fc98ee4543a13a8170ae1c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe6d040fa11c2adf27f001f8da67d73') in 0.021298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle22.prefab
+  artifactKey: Guid(6237e4311e376234c961578134cf390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle22.prefab using Guid(6237e4311e376234c961578134cf390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f883696a0001c4236d6c39fc40e5af') in 0.021379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.611866 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle16.prefab
+  artifactKey: Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle16.prefab using Guid(deb429e41df506940bfff71a78845874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54797949e58a3041cfc0eae04df066e6') in 0.032170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle26.prefab
+  artifactKey: Guid(dd2ad413a1ce7814a9e765e65ef7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle26.prefab using Guid(dd2ad413a1ce7814a9e765e65ef7a3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afd1afd55a776689844a5a0038e9d78') in 0.023081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle28.prefab
+  artifactKey: Guid(88560992cf15b3742af1925d3e47ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle28.prefab using Guid(88560992cf15b3742af1925d3e47ac99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d6692eb17242ae96d010c0711500e7') in 0.034066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle44.prefab
+  artifactKey: Guid(bc6e5c0d229fc6b4da5d0d132648bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle44.prefab using Guid(bc6e5c0d229fc6b4da5d0d132648bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8540a3961f02c0325c4ccb383c0d9fdd') in 0.024004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle1.prefab
+  artifactKey: Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle1.prefab using Guid(486d9e8200c9c854a8134b1a1eaa22bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46ad7568c1ed9c32bd3527a02e63d37') in 0.048487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001124 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle29.prefab
+  artifactKey: Guid(03e0a5f6b95751445bd0f070de4c3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle29.prefab using Guid(03e0a5f6b95751445bd0f070de4c3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829325ecb77cb52f518f210b8b7a84c2') in 0.060862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle33.prefab
+  artifactKey: Guid(4fcede68bcab0c04192a7eac311de620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle33.prefab using Guid(4fcede68bcab0c04192a7eac311de620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1547125463233cd57ba72068ae10a159') in 0.039796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001133 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle42.prefab
+  artifactKey: Guid(2e67624b6c77b854b9839c424524af52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle42.prefab using Guid(2e67624b6c77b854b9839c424524af52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3702fc4a97d53daff1a388bf510aced') in 0.022717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle27.prefab
+  artifactKey: Guid(0298fc85a6fbdd54aaccaee715620a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle27.prefab using Guid(0298fc85a6fbdd54aaccaee715620a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296dff7194b7690b0a94c7a4f02512db') in 0.036577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle32.prefab
+  artifactKey: Guid(c39d9d7c2c355b14fb71f48564d4a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle32.prefab using Guid(c39d9d7c2c355b14fb71f48564d4a4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7c41b74b25f35a130741488c953c4f') in 0.027044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle49.prefab
+  artifactKey: Guid(411b1cc7bb9613342b1d682099ac0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle49.prefab using Guid(411b1cc7bb9613342b1d682099ac0051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f677ab733d5b576e06aabfa694aafcb8') in 0.028928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle38.prefab
+  artifactKey: Guid(e6704d6ad4f740c4c8429ffbc5c90676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle38.prefab using Guid(e6704d6ad4f740c4c8429ffbc5c90676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5439aad5b41184b17f3eef2440f1fcd9') in 0.033252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle21.prefab
+  artifactKey: Guid(eaab7a8b3f17132428c6516ee42c1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle21.prefab using Guid(eaab7a8b3f17132428c6516ee42c1d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e629152263c29464d6920d43684fcc9e') in 0.023419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle31.prefab
+  artifactKey: Guid(0774ffe63f82d924b9dc631edac28adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle31.prefab using Guid(0774ffe63f82d924b9dc631edac28adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8e863bbe9e9bcdba853437d7c6c355') in 0.030925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle48.prefab
+  artifactKey: Guid(2dec2475a3ec17148a0a696e59434c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle48.prefab using Guid(2dec2475a3ec17148a0a696e59434c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49b6c2cc090dbdc4afc87dd8747486d') in 0.024269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle39.prefab
+  artifactKey: Guid(a90808ae646511d41a7bd459c7bda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle39.prefab using Guid(a90808ae646511d41a7bd459c7bda62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acce3e6a342484fd1f9a7f32a8971d2') in 0.029087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle41.prefab
+  artifactKey: Guid(4c5f623981a6c7b4bb9c9d5d1a63c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle41.prefab using Guid(4c5f623981a6c7b4bb9c9d5d1a63c94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26efb1e8ac4d0cc2c9f50e3b37398d55') in 0.038948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle17.prefab
+  artifactKey: Guid(676e042964d6e46439bbb69a4337a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle17.prefab using Guid(676e042964d6e46439bbb69a4337a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3ce9fbe99d292a06c5260c378d923f') in 0.038302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle18.prefab
+  artifactKey: Guid(f92411e5f5adce948abd5f4aabdb58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle18.prefab using Guid(f92411e5f5adce948abd5f4aabdb58d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c39175f63a822d454ccd007e23fcbe') in 0.039185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle23.prefab
+  artifactKey: Guid(4e678591b1f3a7449a8340a620193587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle23.prefab using Guid(4e678591b1f3a7449a8340a620193587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4481e5a0286e3d4af898c9a59c0b441') in 0.026171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle47.prefab
+  artifactKey: Guid(2d41a3daa5198074397143446a022d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle47.prefab using Guid(2d41a3daa5198074397143446a022d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1b2ab54ff6bb68b5b5c36da2358526') in 0.024270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle36.prefab
+  artifactKey: Guid(031e4e19a05ef0b40bef239b61d0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle36.prefab using Guid(031e4e19a05ef0b40bef239b61d0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1159d21a21d511e7540958d9156304cd') in 0.021233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle43.prefab
+  artifactKey: Guid(3c17d7a967e511d4c95c556fe04f9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle43.prefab using Guid(3c17d7a967e511d4c95c556fe04f9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e485577c0627daa27a19a67b59b61') in 0.028517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle19.prefab
+  artifactKey: Guid(3e748ab058a61494290701e944f0238f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle19.prefab using Guid(3e748ab058a61494290701e944f0238f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90f790388b78ed0fb6b869852c92fd9') in 0.021841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle46.prefab
+  artifactKey: Guid(27310088a433491428c2be9a8a2a55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle46.prefab using Guid(27310088a433491428c2be9a8a2a55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1599644c98cddd1850e61107dbfacc83') in 0.026201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle34.prefab
+  artifactKey: Guid(190b15799de55d042bdde4d9214d4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle34.prefab using Guid(190b15799de55d042bdde4d9214d4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f73409b135db423bf7318b82601d14b') in 0.023891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle37.prefab
+  artifactKey: Guid(f6502f0fc98ee4543a13a8170ae1c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle37.prefab using Guid(f6502f0fc98ee4543a13a8170ae1c2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca281ce00a925efe8d976bdceafbb4b') in 0.025249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001913 seconds.
+  path: Assets/KnifeHit/Prefab/Levels/Circle22.prefab
+  artifactKey: Guid(6237e4311e376234c961578134cf390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Levels/Circle22.prefab using Guid(6237e4311e376234c961578134cf390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b720df6993fefb1fa5314efc1f1650f5') in 0.021259 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.258440 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  2.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2621ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2192ms)
+			LoadAssemblies (248ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (862ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (587ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (4ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.6 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3554.
+Total: 4.808200 ms (FindLiveObjects: 0.419800 ms CreateObjectMapping: 0.327600 ms MarkObjects: 4.009900 ms  DeleteObjects: 0.049300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 207.540235 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife1.prefab
+  artifactKey: Guid(b447f14fede85b543827b2288523e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife1.prefab using Guid(b447f14fede85b543827b2288523e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3188e57ec7711f8120fc7c8ec7761d1e') in 0.112603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.315538 seconds.
+  path: Assets/KnifeHit/Prefab/Knifes/Knife1.prefab
+  artifactKey: Guid(b447f14fede85b543827b2288523e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KnifeHit/Prefab/Knifes/Knife1.prefab using Guid(b447f14fede85b543827b2288523e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fb3c51704a32e62a1a464d568f7510') in 0.015526 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.054819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xhoni\Downloads\knife-hit-unity-clone-master\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Error: Could not load signature of UnityEditor.Purchasing.GooglePlayProductCatalogExporter:ProductTypeString due to: Could not load file or assembly 'UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEngine.Purchasing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.10f1]
+UnityIAP: Current Build is Standalone:StandaloneWindows64
+UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  2.256 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2257ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1911ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (780ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3558.
+Total: 5.018400 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.213100 ms MarkObjects: 4.426300 ms  DeleteObjects: 0.060700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
